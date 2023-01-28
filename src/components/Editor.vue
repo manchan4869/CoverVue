@@ -88,7 +88,7 @@ const download = () => {
 
 }
 
-fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json").then(r => r.json()).then(data => {
+fetch("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then(r => r.json()).then(data => {
   // data.push({ name: 'custom' })
   devIcon.value = data.map(item => ({ value: item.name, version: item.versions.font[0] }))
 })
