@@ -12,6 +12,7 @@
     "vue": "^3.2.45"
   },
   "devDependencies": {
+    "@chinese-fonts/dyh": "^1.1.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
     "html2canvas": "^1.0.0",
