@@ -4,11 +4,11 @@ import html2canvas from "html2canvas"
 
 const imgDom = ref(), devIcon = ref([]), devIconFilter = ref('')
 const option = reactive({
-  title: 'qwwqwqwqwqwwq',
-  author: 'Rutik Wankhade',
+  title: 'Markdown首行缩进',
+  author: 'manchan',
   platform: 'hashnode',
-  font: 'font-serif',
-  color: '#ffe9e3',
+  font: 'font-Smiley',
+  color: '#327aff',
   theme: 'basic',
   pattern: 'tic-tac-toe',
   icon: '',
@@ -16,9 +16,6 @@ const option = reactive({
 
 })
 
-const fontFamily = {
-
-}
 const Theme = {
   stylish: '时尚',
   modern: '现代',
@@ -47,6 +44,13 @@ const Pattern = {
   jupiter: '木星',
   sun: '太阳',
 }
+const Fonts = {
+  'font-serif': '衬线字体',
+  'font-sans': '无衬线字体',
+  'font-mono': '等宽字体',
+  'font-Smiley': '得意黑',
+}
+const Platform = ['hashnode', 'dev', 'juejin']
 
 const download = () => {
 
@@ -116,13 +120,7 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
         <div class="flex flex-col m-2 w-1/2">
           <span class="font-medium">字体</span>
           <select class="focus:outline-none text-gray-700 text-xl p-2 rounded border" v-model="option.font">
-            <option>font-serif</option>
-            <option>font-sans</option>
-            <option>font-mono</option>
-            <option>font-Inter</option>
-            <option>font-Poppins</option>
-            <option>font-Anek</option>
-            <option>font-Nunito</option>
+            <option v-for="(item, key, index) in Fonts" :label="item">{{ key }}</option>
           </select>
         </div>
         <!-- #endregion -->
@@ -131,10 +129,10 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
         <div class="flex flex-col m-2 w-1/2">
           <span class="font-medium">颜色</span>
           <div class="border rounded flex items-center p-2 justify-between">
-            <span class="text-xl text-gray-700 mx-2">{{
+            <label class="text-xl text-gray-700 mx-2" for="color">{{
               option.color
-            }}</span>
-            <input type="color" class="h-8 w-8  rounded" v-model="option.color">
+            }}</label>
+            <input type="color" class="h-8 w-8  rounded" v-model="option.color" id="color">
           </div>
         </div>
         <!-- #endregion -->
@@ -188,8 +186,7 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
       <div class="flex flex-col m-2">
         <span class="font-medium">平台</span>
         <select class="focus:outline-none text-gray-700 text-xl p-2 rounded border" v-model="option.platform">
-          <option>hashnode</option>
-          <option>dev</option>
+          <option v-for="item in Platform">{{ item }}</option>
         </select>
       </div>
       <!-- #endregion -->
@@ -211,12 +208,12 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
       <div ref="imgDom">
         <div class="md:w-full md:scale-100 scale-50">
           <div class="p-4 bg-white border">
-            <div class="overflow-y-hidden flex  text-gray-800 items-center" :class="option.platform"
+            <div class="overflow-y-hidden flex  text-gray-800 items-center" :class="[option.platform, option.pattern]"
               :style="`background-color:${option.color}`">
-              <div class="font-Anek bg-white md:w-10/12  m-auto flex flex-col pt-12 rounded-xl">
+              <div class="bg-white md:w-10/12  m-auto flex flex-col pt-12 rounded-xl" :class="option.font">
                 <div class="px-12">
                   <div>
-                    <h1 class="text-3xl md:text-5xl text-gray-800 font-bold text-center">{{
+                    <h1 class="text-3xl md:text-7xl text-gray-800 font-bold text-center">{{
                       option.title
                     }}</h1>
                   </div>
@@ -224,10 +221,10 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
                 <div class=" flex mx-4  p-4 rounded-xl items-center bg-white">
                   <div class="mr-auto ml-2 items-center justify-center flex">
                     <i class="p-4 dev-icon text-5xl"
-                      :class="[option.icon || 'devicon-vuejs-plain', { colored: option.colored }]">
+                      :class="[option.icon || 'devicon-markdown-plain', { colored: option.colored }]">
                     </i>
                   </div>
-                  <h2 class="text-xl ml-auto mr-2 font-semibold">{{ option.author }}</h2>
+                  <h2 class="text-4xl ml-auto mr-2 font-semibold">{{ option.author }}</h2>
                 </div>
               </div>
             </div>
@@ -242,7 +239,7 @@ fetch("https://raw.githubusercontents.com/devicons/devicon/master/devicon.json")
             d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4">
           </path>
         </svg>
-        <span class="mx-2">Download</span>
+        <span class="mx-2">下载</span>
       </button>
     </div>
   </div>
