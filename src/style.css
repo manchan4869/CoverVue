@@ -24,3 +24,9 @@
   width: 1303px;
 
 }
+
+option[class^=devicon-]::before {
+  float: right;
+  margin-top: 1.5px;
+  font-size: 1.2em;
+}
