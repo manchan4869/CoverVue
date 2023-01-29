@@ -1,7 +1,5 @@
-# Vue 3 + Vite
+# CoverView-CN _（CoverView中文版）_
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+🛠快速为您的博客文章创建精彩的封面图像。[在线使用](https://manchan4869.github.io/CoverView-CN/)
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+CoverView-CN是基于[CoverView](https://github.com/rutikwankhade/CoverView/)利用`Vue3`+`Vite`重构的项目。站在中文使用者的角度上对原有项目进行优化，并新增特色功能。
