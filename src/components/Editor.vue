@@ -101,17 +101,16 @@ fetch("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then(r
       <!-- #region 标题 -->
       <div class="m-2 flex flex-col">
         <span class="font-medium">博客标题</span>
-        <textarea type="text" placeholder="Enter title here"
-          class="focus:outline-none border text-gray-700 text-xl rounded p-2 h-24"
-          v-model="option.title">How I built my first project with react</textarea>
+        <textarea type="text" placeholder="标题" class="focus:outline-none border text-gray-700 text-xl rounded p-2"
+          v-model="option.title"></textarea>
       </div>
       <!-- #endregion -->
 
       <!-- #region 作者 -->
       <div class="flex flex-col m-2 ">
         <span class="font-medium">作者</span>
-        <input type="text" placeholder="Author"
-          class="focus:outline-none border text-gray-700 text-xl rounded bg-white p-2" v-model="option.author">
+        <input type="text" placeholder="作者" class="focus:outline-none border text-gray-700 text-xl rounded bg-white p-2"
+          v-model="option.author">
       </div>
       <!-- #endregion -->
 
@@ -213,9 +212,9 @@ fetch("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then(r
               <div class="bg-white md:w-10/12  m-auto flex flex-col pt-12 rounded-xl" :class="option.font">
                 <div class="px-12">
                   <div>
-                    <h1 class="text-3xl md:text-7xl text-gray-800 font-bold text-center">{{
-                      option.title
-                    }}</h1>
+                    <h1
+                      class="text-3xl md:text-7xl text-gray-800 font-bold text-center break-words	whitespace-pre-wrap">
+                      {{ option.title }}</h1>
                   </div>
                 </div>
                 <div class=" flex mx-4  p-4 rounded-xl items-center bg-white">
