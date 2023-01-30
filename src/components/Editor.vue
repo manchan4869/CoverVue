@@ -64,9 +64,6 @@ const download = () => {
   }).then(canvas => {
 
     let imgUrl = canvas.toDataURL("image/png");
-    console.log(imgUrl);
-    // window.open(imgUrl)
-
     const link = document.createElement('a');
 
     if (typeof link.download === 'string') {
