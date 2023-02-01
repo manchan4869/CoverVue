@@ -7,6 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        serif: ['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'Noto Serif SC', 'serif'],
         // Inter: ['Inter', 'sans-serif'],
         // Poppins: ['Poppins', 'sans-serif'],
         // Anek: ['Anek Latin', 'sans-serif'],
