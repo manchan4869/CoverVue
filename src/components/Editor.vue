@@ -87,7 +87,7 @@ const download = () => {
 
 fetch("https://gcore.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then(r => r.json()).then(data => {
   // data.push({ name: 'custom' })
-  devIcon.value = data.map(item => ({ value: item.name, version: item.versions.font[0] }))
+  devIcon.value = [{ value: 'none', version: 'none' }, ...data.map(item => ({ value: item.name, version: item.versions.font[0] }))]
 })
 </script>
 
