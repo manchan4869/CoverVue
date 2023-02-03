@@ -7,12 +7,24 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'Noto Serif SC', 'serif'],
         // Inter: ['Inter', 'sans-serif'],
         // Poppins: ['Poppins', 'sans-serif'],
         // Anek: ['Anek Latin', 'sans-serif'],
         // Nunito: ['Nunito', 'sans-serif'],
-        Smiley: ['Smiley Sans Oblique', 'sans-serif']
+        SourceSerif: ['Noto Serif SC', 'serif'],
+        SourceSans: ['Noto Sans SC', 'sans-serif'],
+        HarmonyOS: ['HarmonyOS_Medium', 'sans-serif'],
+        misans: ['misans', 'sans-serif'],
+        Smiley: ['Smiley Sans Oblique', 'sans-serif'],
+        BWCKKT: ['BWCKKT', 'sans-serif'],
+        Cubic: ["'Cubic 11'", 'sans-serif'],
+        DOUYU: ['\'DOUYU Font\'', 'sans-serif'],
+        jxzk: ['jiangxizhuokai', 'sans-serif'],
+        lxgwwenkai: ['\'LXGW WenKai\'', 'sans-serif'],
+        mksjh: ['MaokenAssortedSans', 'sans-serif'],
+        tjl: ['Tiejili', 'sans-serif'],
+        ysbth: ['YouSheBiaoTiHei', 'sans-serif'],
+
       }
     },
   },
