@@ -23,6 +23,7 @@ const Theme = {
   preview: '预览',
   outline: '轮廓'
 }
+const availableThemes = ['basic']
 const Pattern = {
   none: '无',
   'graph-paper': '坐标纸',
@@ -172,7 +173,9 @@ fetch("https://gcore.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then
         <div class="flex flex-col m-2 w-1/2">
           <span class="font-medium">主题</span>
           <select class="focus:outline-none text-gray-700 text-xl p-2 rounded border" v-model="option.theme">
-            <option v-for="(value, key, index) in Theme" :key="index" :label="value">{{ key }}</option>
+            <option v-for="(value, key, index) in Theme" :key="index"
+              :label="value + (availableThemes.includes(key) ? '' : '🛠')" disabled="!availableThemes.includes(key)"
+              :title="availableThemes.includes(key) ? '' : '开发中'"> {{ key }}</option>
           </select>
         </div>
         <!-- #endregion -->
