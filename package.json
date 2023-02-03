@@ -16,7 +16,7 @@
     "@chinese-fonts/dyh": "^1.1.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
-    "html2canvas": "^1.0.0",
+    "html2canvas": "~1.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4",
     "vite": "^4.0.0"
