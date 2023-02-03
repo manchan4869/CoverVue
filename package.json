@@ -10,15 +10,29 @@
     "build-gh": "vite build --base=/CoverView-CN/"
   },
   "dependencies": {
+    "@chinese-fonts/bwckkt": "^1.1.0",
+    "@chinese-fonts/cubic": "^1.1.0",
+    "@chinese-fonts/dyh": "^1.1.0",
+    "@chinese-fonts/dyzgt": "^1.1.0",
+    "@chinese-fonts/jxzk": "^1.1.0",
+    "@chinese-fonts/lxgwwenkai": "^1.1.0",
+    "@chinese-fonts/mksjh": "^1.1.0",
+    "@chinese-fonts/rmjzqpybxs": "^1.1.0",
+    "@chinese-fonts/sft": "^1.1.0",
+    "@chinese-fonts/tjl": "^1.1.0",
+    "@chinese-fonts/ysbth": "^1.1.0",
+    "@chinese-fonts/ysyrxk": "^1.1.0",
+    "@chinese-fonts/zlmyz": "^1.1.0",
+    "@chinese-fonts/zqzmxs": "^1.1.0",
+    "html2canvas": "~1.0.0",
+    "misans": "^3.1.1",
+    "tailwindcss": "^3.2.4",
     "vue": "^3.2.45"
   },
   "devDependencies": {
-    "@chinese-fonts/dyh": "^1.1.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "autoprefixer": "^10.4.13",
-    "html2canvas": "~1.0.0",
     "postcss": "^8.4.21",
-    "tailwindcss": "^3.2.4",
     "vite": "^4.0.0"
   }
 }
