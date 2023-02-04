@@ -51,9 +51,10 @@ const Fonts = {
   'font-mono': '等宽字体',
   'font-SourceSerif': '思源宋体',
   'font-SourceSans': '思源黑体',
-  'font-HarmonyOS': '鸿蒙',
-  'font-misans': 'misans',
+  'font-HarmonyOS': 'HarmonyOS',
+  'font-misans': 'MiSans',
   'font-Smiley': '得意黑',
+  'font-ysbth': '优设标题黑',
   'font-BWCKKT': '白无常可可体',
   'font-Cubic': 'Cubic',
   'font-DOUYU': '斗鱼追光体',
@@ -61,7 +62,6 @@ const Fonts = {
   'font-lxgwwenkai': '霞鹜文楷',
   'font-mksjh': '猫啃什锦黑',
   'font-tjl': '铁蒺藜体',
-  'font-ysbth': '优设标题黑'
 }
 const Platform = ['hashnode', 'dev', 'juejin']
 
