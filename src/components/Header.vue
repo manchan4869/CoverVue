@@ -6,7 +6,7 @@
   <div class="text-xl bg-white flex border-b border-gray-100 p-2">
     <a class="flex items-center" href="/">
       <!-- <img src="/static/media/logo.5d3dd1b68da4b08fcf92.png" alt="logo" class="w-8 h-8 mx-4"> -->
-      <h1 class="font-semibold mx-4">Coverview-CN</h1>
+      <h1 class="font-semibold mx-4">CoverVue</h1>
     </a>
     <!-- <div class="ml-auto md:mr-4 ">
       <a class="text-gray-700 hover:text-gray-800 text-base font-Nunito mx-4" href="/faq">
