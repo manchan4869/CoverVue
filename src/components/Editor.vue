@@ -255,3 +255,35 @@ fetch("https://gcore.jsdelivr.net/gh/devicons/devicon@latest/devicon.json").then
     </div>
   </div>
 </template>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap');
+@import url('https://s1.hdslb.com/bfs/static/jinkela/long/font/medium.css');
+@import 'misans';
+@import '@chinese-fonts/dyh/dist/SmileySans-Oblique/result.css';
+@import '@chinese-fonts/bwckkt/dist/白无常可可体-Regular/result.css';
+@import "@chinese-fonts/cubic/dist/Cubic/result.css";
+@import "@chinese-fonts/dyzgt/dist/斗鱼追光体/result.css";
+@import "@chinese-fonts/jxzk/dist/江西拙楷/result.css";
+@import "@chinese-fonts/lxgwwenkai/dist/LXGWWenKai-Regular/result.css";
+@import "@chinese-fonts/mksjh/dist/MaokenAssortedSans1.30/result.css";
+@import "@chinese-fonts/tjl/dist/Tiejili Regular/result.css";
+@import "@chinese-fonts/ysbth/dist/优设标题黑/result.css";
+@import url('../assets/CoverImage.css');
+@import url('../assets/patterns.css');
+
+option[class^=devicon-]::before {
+  float: right;
+  margin-top: 1.5px;
+  font-size: 1.2em;
+}
+
+.font-Cubic h1 {
+  line-height: 1.2;
+}
+
+.font-mksjh h1 {
+  font-weight: normal;
+}
+</style>
