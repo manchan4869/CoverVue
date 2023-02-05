@@ -3,8 +3,5 @@
         "deploymentEnabled": {
             "gh-pages": false
         }
-    },
-    "github": {
-        "autoAlias": false
     }
 }
