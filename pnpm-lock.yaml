@@ -8,13 +8,8 @@ specifiers:
   '@chinese-fonts/jxzk': ^1.1.0
   '@chinese-fonts/lxgwwenkai': ^1.1.0
   '@chinese-fonts/mksjh': ^1.1.0
-  '@chinese-fonts/rmjzqpybxs': ^1.1.0
-  '@chinese-fonts/sft': ^1.1.0
   '@chinese-fonts/tjl': ^1.1.0
   '@chinese-fonts/ysbth': ^1.1.0
-  '@chinese-fonts/ysyrxk': ^1.1.0
-  '@chinese-fonts/zlmyz': ^1.1.0
-  '@chinese-fonts/zqzmxs': ^1.1.0
   '@vitejs/plugin-vue': ^4.0.0
   autoprefixer: ^10.4.13
   html2canvas: ~1.0.0
@@ -32,13 +27,8 @@ dependencies:
   '@chinese-fonts/jxzk': 1.1.0
   '@chinese-fonts/lxgwwenkai': 1.1.0
   '@chinese-fonts/mksjh': 1.1.0
-  '@chinese-fonts/rmjzqpybxs': 1.1.0
-  '@chinese-fonts/sft': 1.1.0
   '@chinese-fonts/tjl': 1.1.0
   '@chinese-fonts/ysbth': 1.1.0
-  '@chinese-fonts/ysyrxk': 1.1.0
-  '@chinese-fonts/zlmyz': 1.1.0
-  '@chinese-fonts/zqzmxs': 1.1.0
   html2canvas: 1.0.0
   misans: 3.1.1
   tailwindcss: 3.2.4_postcss@8.4.21
@@ -103,32 +93,12 @@ packages:
     resolution: {integrity: sha512-MmZyiXf2mrmRCKfD/4W9/PDymFu/bnqoAKm2QvktSGcrjQtw9Ik3moHrKgDyQ7bM4RHfVdn6keXDAH0Uun6KLA==}
     dev: false
 
-  /@chinese-fonts/rmjzqpybxs/1.1.0:
-    resolution: {integrity: sha512-CRf0ii2mj8rCLW79YsCP+v1FQJ3QFBgP3zkDwuJPU7wuT9oxUKnVAvBLByXwY+NMGqmgH65v6TYgREjHDOQlbw==}
-    dev: false
-
-  /@chinese-fonts/sft/1.1.0:
-    resolution: {integrity: sha512-SwoB+cZrdTxxYi/FdDr8Vh2roRlZf1sQ8nIA5OFcCUd2etPnrXlCg0Xcg09vLpb4GVdvJ1RZ9LP8jLHtIVyXdg==}
-    dev: false
-
   /@chinese-fonts/tjl/1.1.0:
     resolution: {integrity: sha512-vvnI/fIt0tuZ71l1WLckXlmQVsMybGs1I0VZpOvSNNHNgpfWJkiW6ZtD/lJDIWfZXtt0KKz3O3bRgwJ+x2/3YA==}
     dev: false
 
   /@chinese-fonts/ysbth/1.1.0:
     resolution: {integrity: sha512-oIuk7E3dog1YHxPqvGlysPJ1bm4lw1YHnFe9kv1t7UNBwwbc0pPc9GVSFCVb6UzDG0/cBBUHuxOTdqy2Cq1K1A==}
-    dev: false
-
-  /@chinese-fonts/ysyrxk/1.1.0:
-    resolution: {integrity: sha512-IbVUv8oDapjLGuD724wnMOFz0zlvlqWQDclJ4m1PFXyNzWN04uOjNOq0mG9ZNQMoDeu3QZComiXDyFewLsJ6EQ==}
-    dev: false
-
-  /@chinese-fonts/zlmyz/1.1.0:
-    resolution: {integrity: sha512-JsY8JcbqfgpRmhBxUqXfvBzbr4b46MoJEt3Y2z891Pvj3himW5QMc1PAICD1XpA+MddFdEJGw6EiHJ1Pf9zifQ==}
-    dev: false
-
-  /@chinese-fonts/zqzmxs/1.1.0:
-    resolution: {integrity: sha512-xCQVLDgpk1DabqZW0fj4MmqCpw/eiUqpnE90QtfBJxJI1FGsPC+NpqXe4DelscSvI1zmoY8hqL5TU/CFSivsNg==}
     dev: false
 
   /@esbuild/android-arm/0.16.17:
