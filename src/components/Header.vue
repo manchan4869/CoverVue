@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div class="text-xl bg-white flex border-b border-gray-100 p-2">
@@ -22,5 +20,3 @@
     </div> -->
   </div>
 </template>
-
-

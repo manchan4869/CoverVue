@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -18,15 +15,14 @@ module.exports = {
         Smiley: ['Smiley Sans Oblique', 'sans-serif'],
         BWCKKT: ['BWCKKT', 'sans-serif'],
         Cubic: ["'Cubic 11'", 'sans-serif'],
-        DOUYU: ['\'DOUYU Font\'', 'sans-serif'],
+        DOUYU: ["'DOUYU Font'", 'sans-serif'],
         jxzk: ['jiangxizhuokai', 'sans-serif'],
-        lxgwwenkai: ['\'LXGW WenKai\'', 'sans-serif'],
+        lxgwwenkai: ["'LXGW WenKai'", 'sans-serif'],
         mksjh: ['MaokenAssortedSans', 'sans-serif'],
         tjl: ['Tiejili', 'sans-serif'],
-        ysbth: ['YouSheBiaoTiHei', 'sans-serif'],
-
+        ysbth: ['YouSheBiaoTiHei', 'sans-serif']
       }
-    },
+    }
   },
-  plugins: [],
+  plugins: []
 }
