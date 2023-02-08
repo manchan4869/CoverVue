@@ -1,6 +1,6 @@
 # CoverVue _（CoverView 中文版）_
 
-🛠 快速为您的博客文章创建精彩的封面图像。[在线使用](https://manchan4869.github.io/CoverVue/)
+🛠 快速为您的博客文章创建精彩的封面图像。[在线使用](https://covervue.manchan.top/)
 
 🎉 此项目已经正式更名 CoverVue🎉
 
